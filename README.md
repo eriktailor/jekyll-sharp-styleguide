@@ -72,3 +72,4 @@ JEKYLL_ENV=production bundle exec jekyll serve
 
 - document helper classes
 - check responsive features
+- fix h6 font size on mobile views

@@ -392,6 +392,11 @@ table {
   border-spacing: 0;
 }
 
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 /*	HEADER
 =========================================================================================*/
 header {
@@ -666,7 +671,7 @@ h6 {
   display: grid;
   -ms-grid-columns: (minmax(150px, 1fr))[auto-fill];
       grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  grid-gap: 1rem;
+  grid-gap: 20px;
 }
 
 .color-swatches .color-item {
