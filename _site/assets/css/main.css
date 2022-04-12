@@ -2710,3 +2710,10 @@ blockquote.accent {
 .feather-zoom-out:before {
   content: "\ea09";
 }
+
+/*	FOOTER
+=========================================================================================*/
+footer {
+  padding: 20px 0;
+  background-color: #F6F5F5;
+}
