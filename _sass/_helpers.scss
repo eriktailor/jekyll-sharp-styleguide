@@ -44,35 +44,35 @@ $color-theme:(
 // Backgrounds
 @each $background, $color in $color-theme {
     .bg-#{$background}{ 
-        background-color: $color;
+        background-color: $color !important;
     }
 } 
 
 // Colors
 @each $text, $color in $color-theme {
     .text-#{$text}{ 
-        color: $color;
+        color: $color !important;
     }
 } 
 
 // Display
 .d-none {
-    display: none;
+    display: none !important;
 }
 
 .d-block {
-    display: block;
+    display: block !important;
 }
 
 .d-inline-block {
-    display: inline-block;
+    display: inline-block !important;
 }
 
 .d-inline {
-    display: inline;
+    display: inline !important;
 }
 
 // Width
 .w-100 {
-    width: 100%;
+    width: 100% !important;
 }

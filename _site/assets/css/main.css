@@ -194,55 +194,55 @@
 }
 
 .bg-accent {
-  background-color: #2AAC7B;
+  background-color: #2AAC7B !important;
 }
 
 .bg-dark {
-  background-color: #171010;
+  background-color: #171010 !important;
 }
 
 .bg-light {
-  background-color: #F6F5F5;
+  background-color: #F6F5F5 !important;
 }
 
 .bg-white {
-  background-color: #ffffff;
+  background-color: #ffffff !important;
 }
 
 .text-accent {
-  color: #2AAC7B;
+  color: #2AAC7B !important;
 }
 
 .text-dark {
-  color: #171010;
+  color: #171010 !important;
 }
 
 .text-light {
-  color: #F6F5F5;
+  color: #F6F5F5 !important;
 }
 
 .text-white {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .d-none {
-  display: none;
+  display: none !important;
 }
 
 .d-block {
-  display: block;
+  display: block !important;
 }
 
 .d-inline-block {
-  display: inline-block;
+  display: inline-block !important;
 }
 
 .d-inline {
-  display: inline;
+  display: inline !important;
 }
 
 .w-100 {
-  width: 100%;
+  width: 100% !important;
 }
 
 /*	CSS RESET
@@ -707,6 +707,82 @@ input:disabled, input.disabled, textarea:disabled, textarea.disabled, select:dis
   right: 20px;
   top: 17px;
   opacity: 0.5;
+}
+
+.checkbox {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  display: block;
+  line-height: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkbox input:checked ~ .checkmark {
+  background-color: #2AAC7B;
+  border: 0 !important;
+}
+
+.checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.checkbox .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: 4px;
+  background: #ffffff;
+  border: 1px solid rgba(23, 16, 16, 0.25);
+}
+
+.checkbox .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 7px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid #ffffff;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.checkbox.radio {
+  line-height: 23px;
+}
+
+.checkbox.radio .checkmark {
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+}
+
+.checkbox.radio .checkmark:after {
+  top: 6px;
+  left: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ffffff;
 }
 
 /*	IMAGE & LIGHTBOX

@@ -51,6 +51,5 @@ bundle exec jekyll servee
 
 ## Todos
 
-- Add custom checkboxes to input section
 - Add GitHub Pages compatible plugins
 - Add anchor link to headings

@@ -24,7 +24,7 @@ input, textarea, select {
     }
 }
 
-// Placeholders
+// Placeholder
 ::placeholder, .select-placeholder {
     color: rgba($dark, 0.3);
     font-weight: normal;
@@ -44,4 +44,72 @@ input, textarea, select {
     }
 }
 
+// Checkbox & Radio
+.checkbox {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    display: block;
+    line-height: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+        &:checked ~ .checkmark {
+            background-color: $accent;
+            border: 0 !important;
+            &:after {
+                display: block;
+            }
+        }
+    }
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 20px;
+        width: 20px;
+        border-radius: $border-radius / 2;
+        background: $white;
+        border: 1px solid rgba($dark, 0.25);
+        &:after {
+            content: "";
+            position: absolute;
+            display: none;
+            left: 7px;
+            top: 2px;
+            width: 5px;
+            height: 10px;
+            border: solid $white;
+            border-width: 0 2px 2px 0;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+    }
+    &.radio {
+        line-height: 23px;
+        .checkmark {
+            border-radius: 50%;
+            width: 22px;
+            height: 22px;
+            &:after {
+                top: 6px;
+                left: 6px;
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background: $white;
+            }
+        }
+    }
+}
 
