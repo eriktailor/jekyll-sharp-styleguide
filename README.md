@@ -2,7 +2,7 @@
 
 A fresh, lightweight custom built styleguide template to use with Jekyll sites. Just download or clone from the github repo and start building your site upon it.
 
-## [Check out the live demo here ->](https://eriktailor.github.io/jekyll-sharp-styleguide/)
+## [Check out the live demo here](https://eriktailor.github.io/jekyll-sharp-styleguide/)
 
 ---
 
