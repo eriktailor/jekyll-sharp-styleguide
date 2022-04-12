@@ -524,12 +524,12 @@ ul:not(.check-list):not(.icon-list) li:not(:last-child) {
 ol {
   list-style: none;
   counter-reset: my-counter;
-  padding-left: 35px;
+  padding-left: 25px;
 }
 
 ol li {
   counter-increment: my-counter;
-  text-indent: -35px;
+  text-indent: -30px;
 }
 
 ol li:not(:last-child) {
@@ -537,17 +537,24 @@ ol li:not(:last-child) {
 }
 
 ol li:before {
-  content: counter(my-counter);
-  color: #ffffff;
+  content: counter(my-counter) ".";
   width: 24px;
+  color: #171010;
+  font-weight: bold;
   height: 24px;
   line-height: 24px;
   text-align: center;
   display: inline-block;
-  background: #2AAC7B;
-  border-radius: 100%;
-  margin-right: 10px;
+  margin-right: 5px;
   text-indent: 0;
+}
+
+.check-list {
+  padding-left: 35px;
+}
+
+.check-list li {
+  text-indent: -32px;
 }
 
 .check-list li:not(:last-child) {
@@ -558,21 +565,43 @@ ol li:before {
   content: "\e92b";
   font-family: 'Feather';
   line-height: 1;
-  color: #2AAC7B;
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+  border-radius: 50%;
+  background: #2AAC7B;
+  color: #ffffff;
   margin-right: 8px;
 }
 
-.icon-list li:not(:last-child) {
+.number-list {
+  list-style: none;
+  counter-reset: my-counter;
+  padding-left: 35px;
+}
+
+.number-list li {
+  counter-increment: my-counter;
+  text-indent: -35px;
+}
+
+.number-list li:not(:last-child) {
   margin-bottom: 15px;
 }
 
-.icon-list li:before {
-  content: "";
+.number-list li:before {
+  content: counter(my-counter);
+  color: #ffffff;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
   display: inline-block;
-  width: 15px;
-  height: 15px;
-  background: url("https://www.svgrepo.com/show/169312/check-mark.svg");
+  background: #2AAC7B;
+  font-weight: normal;
+  border-radius: 100%;
   margin-right: 10px;
+  text-indent: 0;
 }
 
 /*	TAGS
