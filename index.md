@@ -14,6 +14,10 @@ description: A fresh, lightweight custom built styleguide template to use with J
 
 ---
 
+{% include headings.html %}
+
+---
+
 # The little brown fox jumps over the lazy dog.
 
 Sed elementum vel sapien in ultricies. Sed a dui dui. Fusce commodo faucibus lobortis. Nulla facilisi. Fusce sagittis, massa ut faucibus feugiat, velit neque pharetra enim, aliquet mollis lectus tellus quis odio. Sed a ante sed nibh iaculis scelerisque. Vestibulum a magna nunc.
