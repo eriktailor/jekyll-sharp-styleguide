@@ -19,6 +19,12 @@ exclude:
 # Livereload
 livereload: true
 
+# Highlight
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
 # Sass
 sass:
   sourcemap: never

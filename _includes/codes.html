@@ -1,0 +1,64 @@
+<h3>Codes</h3>
+
+<p class="mb-1"><small>Html & Markdown</small></p>
+{% highlight html %}
+<section>
+    <div class="wrap">
+        <h1 class="title">Hello</h1>
+    </div>
+</section> 
+{% endhighlight %}
+
+<p class="mb-1"><small>Javascript</small></p>
+{% highlight javascript %}
+function sayHello(name) {
+    if (!name) {
+        console.log('Hello World');
+    }
+}  
+{% endhighlight %}
+
+<p class="mb-1"><small>Scss & Css code</small></p>
+{% highlight scss %}
+.selector {
+    background: $variable;
+    display: block;
+    color: red;
+}
+{% endhighlight %}
+
+<p class="mb-1"><small>Scroll code block</small></p>
+{% highlight html %}
+<section id="contact">
+    <div classs="form-container">
+        <form action="#" method="post">
+            <!-- Name field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <!-- Email field -->
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+
+            <!-- Message field -->
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <!-- Submit button -->
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="footer-container">
+        <div class="footer-wrap">
+
+            <h6 class="copyright-text">2022 © MyWebsite.</h6>
+            <a href="contact.html">Contact me</a>
+
+        </div>
+    </div>
+</footer>
+{% endhighlight %}
