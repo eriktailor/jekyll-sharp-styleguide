@@ -25,10 +25,16 @@ A fresh, lightweight custom built styleguide template to use with Jekyll sites. 
 
 ---
 
+## Resources
+
+- [Feather Icons](https://dropways.github.io/feathericons/)
+- [SimpleTooltip](https://github.com/not-only-code/Simpletooltip)
+
+---
+
 ## Todos
 
 - Add custom checkboxes to input section
 - Add GitHub Pages compatible plugins
+- Add anchor link to headings
 - Add copy code block function
-- Mention feathericons in copyright notice
-- Mention SimpleTooltip in copyright notice

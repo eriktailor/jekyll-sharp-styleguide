@@ -36,7 +36,9 @@ jQuery(document).ready(function ($) {
     });
 
     // Initialize tooltips on icons
-    $('.icons-list i').simpletooltip();
+    $('.icons-list i').simpletooltip({
+        color: 'white',
+    });
 
 // ==================================================================================
 });
