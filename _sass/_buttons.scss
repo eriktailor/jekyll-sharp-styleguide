@@ -2,7 +2,13 @@
 =========================================================================================*/
 
 // Basic button
-button, .btn {
+button {
+    outline: none;
+    border: 0;
+}
+
+// Theme button
+.btn {
     background: $accent;
     color: $white;
     font-weight: bold;

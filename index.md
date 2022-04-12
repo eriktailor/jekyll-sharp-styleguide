@@ -26,6 +26,10 @@ description: A fresh, lightweight custom built styleguide template to use with J
 
 ---
 
+{% include lightbox.html %}
+
+---
+
 {% include inputs.html %}
 
 <br><br>

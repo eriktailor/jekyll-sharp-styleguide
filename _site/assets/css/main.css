@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*	HELPER CLASSES
 =========================================================================================*/
 .mt-0 {
@@ -544,7 +545,12 @@ ol li:before {
 
 /* BUTTONS
 =========================================================================================*/
-button, .btn {
+button {
+  outline: none;
+  border: 0;
+}
+
+.btn {
   background: #2AAC7B;
   color: #ffffff;
   font-weight: bold;
@@ -557,12 +563,12 @@ button, .btn {
   cursor: pointer;
 }
 
-button:not(.disabled):hover, button.hover, .btn:not(.disabled):hover, .btn.hover {
+.btn:not(.disabled):hover, .btn.hover {
   background: #25986c;
   transition: background-color 0.3s;
 }
 
-button:disabled, button.disabled, .btn:disabled, .btn.disabled {
+.btn:disabled, .btn.disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
@@ -612,4 +618,74 @@ input:disabled, input.disabled, textarea:disabled, textarea.disabled, select:dis
   right: 20px;
   top: 17px;
   opacity: 0.5;
+}
+
+/*	IMAGE & LIGHTBOX
+=========================================================================================*/
+img {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 80px rgba(23, 16, 16, 0.2);
+}
+
+img.allow-lightbox {
+  cursor: pointer;
+}
+
+.lightbox {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(23, 16, 16, 0.85);
+  z-index: 1000;
+}
+
+.lightbox > div {
+  padding: 5%;
+}
+
+.lightbox .close {
+  fill: white;
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  z-index: 1002;
+  cursor: pointer;
+  transition: opacity 0.25s;
+  opacity: 0.8;
+}
+
+.lightbox .close:hover {
+  opacity: 1;
+}
+
+.lightbox img {
+  max-height: 90vh;
+}
+
+@media (max-width: 768px) {
+  .lightbox {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .lightbox-opened {
+    overflow-y: hidden;
+  }
+}
+
+.no-lightbox {
+  cursor: default;
+  pointer-events: none;
 }

@@ -18,6 +18,7 @@ The responsive typography is 90% ready, can go on with other elements.
 - responsive typography
 - css grid and flexbox layouts
 - customized ordered & unordered lists
+- including a functional lightbox
 - inputs styling (basic, textarea, select)
 
 ---

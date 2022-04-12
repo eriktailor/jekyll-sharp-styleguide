@@ -80,15 +80,15 @@
 <div class="row">
     <div class="col">
         <p class="mb-1"><small>Default state</small></p>
-        <button class="w-100">Click the button</button>
+        <button class="btn w-100">Click the button</button>
     </div>
     <div class="col">
         <p class="mb-1"><small>Hover state</small></p>
-        <button class="w-100 hover">Click the button</button>
+        <button class="btn w-100 hover">Click the button</button>
     </div>
     <div class="col">
         <p class="mb-1"><small>Disabled state</small></p>
-        <button class="w-100 disabled" disabled="">Click the button</button>
+        <button class="btn w-100 disabled" disabled="">Click the button</button>
     </div>
 </div>
 
@@ -98,6 +98,12 @@
 
 <p>Sed elementum vel sapien in ultricies. Sed a dui dui. Fusce commodo esta faucibus lobortis. <b>Nulla facilisi</b>. Fusce sagittis, massa ut faucibus feugiat, velit neque pharetra enim, aliquet mollis <a href="#">lectus tellus quis</a> odio. Sed a ante sed nibh iaculis scelerisque. Vestibulum a magna nunc.</p>
 <p><small>Sed elementum vel sapien in ultricies. Sed a dui dui. Fusce commodo esta faucibus lobortis. Nulla facilisi. Fusce sagittis, massa ut faucibus feugiat, velit neque pharetra enim, aliquet mollis.</small></p>
+
+<hr />
+
+<h3>Lightbox</h3>
+
+<p><img class="allow-lightbox" src="assets/img/lightbox.jpg" /></p>
 
 <hr />
 
@@ -137,6 +143,18 @@
 
       </div>
     </main>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+      <button class="close" type="button">
+          <svg class="close" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+              <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+      </button>
+      <div>
+          <img src="/assets/img/posts/add-a-html-list-with-check-icon.webp">
+      </div>
+    </div>
 
     <!-- Javascripts -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
