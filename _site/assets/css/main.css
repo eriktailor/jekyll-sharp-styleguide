@@ -296,6 +296,7 @@ table {
 body {
   font-family: -apple-system, sans-serif;
   line-height: 1.6;
+  color: rgba(23, 16, 16, 0.75);
 }
 
 p {
@@ -315,10 +316,36 @@ p {
   }
 }
 
+small {
+  font-size: 16px;
+}
+
+b, strong {
+  color: #171010;
+  font-weight: bold;
+}
+
+a {
+  color: #2AAC7B;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #25986c;
+}
+
+hr {
+  margin: 50px 0;
+}
+
+/*	HEADINGS
+=========================================================================================*/
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   margin-bottom: 20px;
   line-height: 1;
+  color: #171010;
 }
 
 h1 {
@@ -429,10 +456,6 @@ h6 {
   }
 }
 
-hr {
-  margin: 50px 0;
-}
-
 /*	COLOR SWATCHES
 =========================================================================================*/
 .color-swatches {
@@ -495,4 +518,29 @@ ol li:before {
   border-radius: 100%;
   margin-right: 10px;
   text-indent: 0;
+}
+
+/* BUTTONS
+=========================================================================================*/
+button, .btn {
+  background: #2AAC7B;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 15px 25px;
+  border: 0;
+  box-shadow: none;
+  font-size: 17.6px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+button:not(.disabled):hover, button.hover-state, .btn:not(.disabled):hover, .btn.hover-state {
+  background: #25986c;
+  transition: background-color 0.3s;
+}
+
+button.disabled, .btn.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }

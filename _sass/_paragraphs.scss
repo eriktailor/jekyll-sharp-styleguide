@@ -1,0 +1,48 @@
+/*	TYPOGRAPHY
+=========================================================================================*/
+
+// Base
+body {
+    font-family: -apple-system, sans-serif;
+    line-height: 1.6;
+    color: rgba($dark,0.75);
+}
+
+// Paragraphs
+p {
+    margin-bottom: $bottom-spacing;
+    font-size: $base-font-size * 1.25;
+    @media (max-width: $breakpoint-sm) {
+        font-size: $base-font-size * 1.1;
+    }
+    @media (max-width: $breakpoint-xs) {
+        font-size: $base-font-size;
+    }
+}
+
+// Small
+small {
+    font-size: $base-font-size;
+}
+
+// Bold
+b, strong {
+    color: $dark;
+    font-weight: bold;
+}
+
+// Link
+a {
+    color: $accent;
+    text-decoration: underline;
+    &:hover {
+        text-decoration: none;
+        color: $accent-hover;
+    }
+}
+
+
+// Divider
+hr {
+    margin: 50px 0;
+}

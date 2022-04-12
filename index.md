@@ -18,26 +18,11 @@ description: A fresh, lightweight custom built styleguide template to use with J
 
 ---
 
-# The little brown fox jumps over the lazy dog.
+{% include paragraphs.html %}
 
-Sed elementum vel sapien in ultricies. Sed a dui dui. Fusce commodo faucibus lobortis. Nulla facilisi. Fusce sagittis, massa ut faucibus feugiat, velit neque pharetra enim, aliquet mollis lectus tellus quis odio. Sed a ante sed nibh iaculis scelerisque. Vestibulum a magna nunc.
+---
 
-## The little brown fox jumps over the lazy dog.
+{% include buttons.html %}
 
-Sed elementum vel sapien in ultricies. Sed a dui dui. Fusce commodo faucibus lobortis. Nulla facilisi. Fusce sagittis, massa ut faucibus feugiat, velit neque pharetra enim, aliquet mollis lectus tellus quis odio. Sed a ante sed nibh iaculis scelerisque. Vestibulum a magna nunc.
-
-### The little brown fox jumps over the lazy dog.
-
-Sed elementum vel sapien in ultricies. Sed a dui dui. Fusce commodo faucibus lobortis. Nulla facilisi. Fusce sagittis, massa ut faucibus feugiat, velit neque pharetra enim, aliquet mollis lectus tellus quis odio. Sed a ante sed nibh iaculis scelerisque. Vestibulum a magna nunc.
-
-#### The little brown fox jumps over the lazy dog.
-
-Sed elementum vel sapien in ultricies. Sed a dui dui. Fusce commodo faucibus lobortis. Nulla facilisi. Fusce sagittis, massa ut faucibus feugiat, velit neque pharetra enim, aliquet mollis lectus tellus quis odio. Sed a ante sed nibh iaculis scelerisque. Vestibulum a magna nunc.
-
-##### The little brown fox jumps over the lazy dog.
-
-Sed elementum vel sapien in ultricies. Sed a dui dui. Fusce commodo faucibus lobortis. Nulla facilisi. Fusce sagittis, massa ut faucibus feugiat, velit neque pharetra enim, aliquet mollis lectus tellus quis odio. Sed a ante sed nibh iaculis scelerisque. Vestibulum a magna nunc.
-
-###### The little brown fox jumps over the lazy dog.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut porttitor urna. Etiam euismod sed eros sit amet iaculis. Sed tristique venenatis urna vel gravida. Proin pharetra vulputate orci, quis iaculis odio aliquet ac. Sed elementum vel sapien in ultricies. Sed a dui dui. Fusce commodo faucibus lobortis. Nulla facilisi. Fusce sagittis, massa ut faucibus feugiat, velit neque pharetra enim, aliquet mollis lectus tellus quis odio. Sed a ante sed nibh iaculis scelerisque. Vestibulum a magna nunc.
+<br><br>
+<br><br>

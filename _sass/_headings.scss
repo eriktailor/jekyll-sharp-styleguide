@@ -1,29 +1,11 @@
-/*	TYPOGRAPHY
+/*	HEADINGS
 =========================================================================================*/
 
-// Base
-body {
-    font-family: -apple-system, sans-serif;
-    line-height: 1.6;
-}
-
-// Paragraphs
-p {
-    margin-bottom: $bottom-spacing;
-    font-size: $base-font-size * 1.25;
-    @media (max-width: $breakpoint-sm) {
-        font-size: $base-font-size * 1.1;
-    }
-    @media (max-width: $breakpoint-xs) {
-        font-size: $base-font-size;
-    }
-}
-
-// Headings
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     margin-bottom: $bottom-spacing;
     line-height: 1;
+    color: $dark;
 }
 
 @each $heading, $size in $font-size {
@@ -39,8 +21,3 @@ h1, h2, h3, h4, h5, h6 {
         }
     }
 } 
-
-// Divider
-hr {
-    margin: 50px 0;
-}

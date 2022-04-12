@@ -1,0 +1,24 @@
+/* BUTTONS
+=========================================================================================*/
+
+// Basic button
+button, .btn {
+    background: $accent;
+    color: $white;
+    font-weight: bold;
+    padding: 15px 25px;
+    border: 0;
+    box-shadow: none;
+    font-size: $base-font-size * 1.1;
+    border-radius: $border-radius / 2;
+    margin-bottom: $bottom-spacing;
+    cursor: pointer;
+    &:not(.disabled):hover, &.hover-state {
+        background: $accent-hover;
+        transition: background-color 0.3s;
+    }
+    &.disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+}
