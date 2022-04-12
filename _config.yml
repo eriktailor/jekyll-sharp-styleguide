@@ -3,6 +3,9 @@ title: Jekyll Sharp StyleGuide
 tagline: A styleguide template in Jekyll.
 description: A fresh, lightweight custom built styleguide template in Jekyll.
 author: ErikTailor
+locale: en
+
+# Urls
 baseurl: ""
 url: ""
 

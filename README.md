@@ -71,5 +71,3 @@ JEKYLL_ENV=production bundle exec jekyll serve
 ## Todos
 
 - document helper classes
-- fix h6 font size on mobile views
-- add copyright footer

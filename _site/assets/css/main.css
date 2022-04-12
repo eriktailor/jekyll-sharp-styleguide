@@ -412,7 +412,7 @@ header {
       align-items: center;
 }
 
-header h1 {
+header h1, header h2, header h3 {
   color: #ffffff;
 }
 
@@ -596,6 +596,10 @@ main {
     -moz-column-count: 6;
          column-count: 6;
   }
+}
+
+.row-columns .col {
+  height: 300px;
 }
 
 @media (max-width: 450px) {

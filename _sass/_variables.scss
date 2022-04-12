@@ -3,23 +3,10 @@ $accent: #2AAC7B;
 $dark: #171010;
 $light: #F6F5F5;
 $white: #ffffff;
-
 $accent-hover: darken($accent, 5%);
 
+// Fonts
 $font-family: -apple-system, sans-serif;
-
-// Code background
-$codebg: $light;
-
-// Border radius
-$border-radius: 8px;
-
-// Breakpoints
-$breakpoint-sm: 768px;
-$breakpoint-xs: 450px;
-$breakpoint-xxs: 320px;
-
-// Typography
 $base-font-size: 16px;
 
 // Headings
@@ -30,6 +17,14 @@ $font-size:(
     h4 : 32px,
     h5 : 24px
 );
+
+// Radius
+$border-radius: 8px;
+ 
+// Breakpoints
+$breakpoint-sm: 768px;
+$breakpoint-xs: 450px;
+$breakpoint-xxs: 320px;
 
 // Spacing
 $spacer: 20px;
