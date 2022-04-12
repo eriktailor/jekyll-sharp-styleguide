@@ -7,7 +7,6 @@ header {
     background-image: url('../img/header_bg.webp');
     background-size: cover;
     background-position: center;
-    filter: saturate(0);
     min-height: 550px;
     padding-top: 50px;
     display: flex;
@@ -17,9 +16,6 @@ header {
     }
     @media (max-width: $breakpoint-sm) {
         min-height: 450px;
-    }
-    @media (max-width: $breakpoint-xs) {
-        min-height: 350px;
     }
 }
 

@@ -13,11 +13,11 @@ A fresh, lightweight custom built styleguide template to use with Jekyll sites. 
 - lightweight, rapid fast loading speed
 - completely responsive with fluid layout
 - helper classes for spacings and colors
-- responsive typography setup
-- css grid and flexbox layouts
+- custom 6 columns responsoive grid system
 - customized ordered & unordered lists
 - including a functional lightbox
 - autoprefix css output with vendor prefixes
+- responsive fluid typography setup
 - inputs styling (basic, textarea, select)
 - code blocks with syntax highlighting
 - copy any code block with one click
@@ -73,3 +73,4 @@ JEKYLL_ENV=production bundle exec jekyll serve
 - document helper classes
 - check responsive features
 - fix h6 font size on mobile views
+- add copyright footer

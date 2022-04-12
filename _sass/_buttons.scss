@@ -14,17 +14,24 @@ button {
     font-weight: bold;
     padding: (($spacer / 4) * 3)  (($spacer / 4) * 5);
     border: 0;
+    display: inline-block;
     box-shadow: none;
     font-size: $base-font-size * 1.1;
     border-radius: $border-radius / 2;
     margin-bottom: $spacer;
+    text-align: center;
+    text-decoration: none;
     cursor: pointer;
     &:not(.disabled):hover, &.hover {
         background: $accent-hover;
         transition: background-color 0.3s;
+        color: $white;
     }
     &:disabled, &.disabled {
         opacity: 0.5;
         cursor: not-allowed;
+    }
+    @media (max-width: $breakpoint-xs) {
+        display: block;
     }
 }
