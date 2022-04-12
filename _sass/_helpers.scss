@@ -54,3 +54,25 @@ $color-theme:(
         color: $color;
     }
 } 
+
+// Display
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-inline {
+    display: inline;
+}
+
+// Width
+.w-100 {
+    width: 100%;
+}

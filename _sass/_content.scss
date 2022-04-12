@@ -4,11 +4,13 @@
 .container {
     max-width: 680px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 $bottom-spacing;
 }
 
 .row {
-    display: flex;
+    display: grid;
+    grid-auto-flow: column;
+    gap: $bottom-spacing;
 }
 
 .col {

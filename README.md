@@ -16,4 +16,12 @@ The responsive typography is 90% ready, can go on with other elements.
   - backgrounds
   - text colors
 - responsive typography
+- css grid and flexbox layouts
 - customized ordered & unordered lists
+- inputs styling (basic, textarea, select)
+
+---
+
+## Todos
+
+- Add custom checkboxes to input section

@@ -18,11 +18,15 @@ description: A fresh, lightweight custom built styleguide template to use with J
 
 ---
 
+{% include buttons.html %}
+
+---
+
 {% include paragraphs.html %}
 
 ---
 
-{% include buttons.html %}
+{% include inputs.html %}
 
 <br><br>
 <br><br>

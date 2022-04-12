@@ -13,8 +13,9 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="/assets/css/main.css" />
   </head>
-
   <body>
+
+    <!-- Content -->
     <main>
       <div class="container">
         <p><br /><br /></p>
@@ -74,28 +75,61 @@
 
 <hr />
 
-<h3>Paragraphs</h3>
-
-<p>Sed elementum vel sapien in ultricies. Sed a dui dui. Fusce commodo esta faucibus lobortis. <b>Nulla facilisi</b>. Fusce sagittis, massa ut faucibus feugiat, velit neque pharetra enim, aliquet mollis <a href="#">lectus tellus quis</a> odio. Sed a ante sed nibh iaculis scelerisque. Vestibulum a magna nunc.</p>
-<p><small>Sed elementum vel sapien in ultricies. Sed a dui dui. Fusce commodo esta faucibus lobortis. Nulla facilisi. Fusce sagittis, massa ut faucibus feugiat, velit neque pharetra enim, aliquet mollis lectus tellus quis odio. Sed a ante sed nibh iaculis scelerisque. Vestibulum a magna nunc.</small></p>
-
-<hr />
-
 <h3>Buttons</h3>
 
 <div class="row">
     <div class="col">
         <p class="mb-1"><small>Default state</small></p>
-        <button>Click the button</button>
+        <button class="w-100">Click the button</button>
     </div>
     <div class="col">
         <p class="mb-1"><small>Hover state</small></p>
-        <button class="hover-state">Click the button</button>
+        <button class="w-100 hover">Click the button</button>
     </div>
     <div class="col">
         <p class="mb-1"><small>Disabled state</small></p>
-        <button class="disabled">Click the button</button>
+        <button class="w-100 disabled" disabled="">Click the button</button>
     </div>
+</div>
+
+<hr />
+
+<h3>Paragraphs</h3>
+
+<p>Sed elementum vel sapien in ultricies. Sed a dui dui. Fusce commodo esta faucibus lobortis. <b>Nulla facilisi</b>. Fusce sagittis, massa ut faucibus feugiat, velit neque pharetra enim, aliquet mollis <a href="#">lectus tellus quis</a> odio. Sed a ante sed nibh iaculis scelerisque. Vestibulum a magna nunc.</p>
+<p><small>Sed elementum vel sapien in ultricies. Sed a dui dui. Fusce commodo esta faucibus lobortis. Nulla facilisi. Fusce sagittis, massa ut faucibus feugiat, velit neque pharetra enim, aliquet mollis.</small></p>
+
+<hr />
+
+<h3>Inputs</h3>
+
+<div class="row">
+    <div class="col">
+        <p class="mb-1"><small>Default state</small></p>
+        <input type="text" placeholder="Placeholder text" />
+    </div>
+    <div class="col">
+        <p class="mb-1"><small>Focus state</small></p>
+        <input class="focus" type="text" placeholder="Placeholder text" />
+    </div>
+    <div class="col">
+        <p class="mb-1"><small>Disabled state</small></p>
+        <input type="text" placeholder="Placeholder text" disabled="" />
+    </div>
+</div>
+
+<p class="mb-1"><small>Textarea</small></p>
+<textarea rows="5" placeholder="Add your comment here"></textarea>
+
+<p class="mb-1"><small>Select field</small></p>
+<div class="select-field">
+    <select class="select-box">
+        <option value="">Select an option</option>    		
+        <option value="opt-1">Option 1</option>
+        <option value="opt-2">Option 2</option>
+        <option value="opt-3">Option 3</option>
+    </select>
+    <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 1792 1792" width="16"><path d="M1395 736q0 13-10 23l-466 466q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l393 393 393-393q10-10 23-10t23 10l50 50q10 10 10 23z" /></svg>
 </div>
 
 <p><br /><br />
@@ -103,6 +137,10 @@
 
       </div>
     </main>
-  </body>
 
+    <!-- Javascripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+  </body>
 </html>
