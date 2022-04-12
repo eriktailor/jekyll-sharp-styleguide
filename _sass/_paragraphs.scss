@@ -26,6 +26,12 @@ p {
     }
 }
 
+// Text selection
+::selection {
+    background: $accent;
+    color: $white;
+}
+
 // Small
 small {
     font-size: $base-font-size;
