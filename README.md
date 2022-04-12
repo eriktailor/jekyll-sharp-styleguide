@@ -42,16 +42,27 @@ bundle
 The project is all set up, finally you just need to serve it:
 
 ```shell
-bundle exec jekyll servee
+bundle exec jekyll serve
+```
+
+If you want to compile your project for production, use this command:
+
+```shell
+JEKYLL_ENV=production bundle exec jekyll serve
 ```
 
 ## Resources
 
+### Third-party assets
+
 - [Feather Icons](https://dropways.github.io/feathericons/)
 - [SimpleTooltip](https://github.com/not-only-code/Simpletooltip)
+
+### Jekyll plugins
+
+- [jekyll-autoprefixer](https://github.com/vwochnik/jekyll-autoprefixer) - add vendor prefixes for browser compatibility to css output
+- [jekyll-minifier](https://github.com/digitalsparky/jekyll-minifier) - plugin to compress & minify html, css, js files
 
 ---
 
 ## Todos
-
-- Add GitHub Pages compatible plugins

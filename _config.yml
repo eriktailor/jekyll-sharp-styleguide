@@ -35,6 +35,14 @@ autoprefixer:
   browsers:
     - last 2 versions
 
+# Minifier
+jekyll-minifier:
+  preserve_php: true
+  remove_intertag_spaces: true
+  uglifier_args:
+    harmony: true
+
 # Plugins
 plugins:
   - jekyll-autoprefixer
+  - jekyll-minifier
