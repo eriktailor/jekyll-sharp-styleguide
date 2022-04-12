@@ -1088,17 +1088,24 @@ blockquote.accent {
 .icons-list {
   list-style: none !important;
   padding: 0 !important;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  gap: 30px;
 }
 
 .icons-list li {
-  display: inline-block;
+  text-align: center;
+  margin: 0 !important;
+  height: 65px;
+  line-height: 80px;
 }
 
-.icons-list li .icon-name-box {
-  background: #F6F5F5;
-  padding: 20px;
-  width: 100px;
-  text-align: center;
+.icons-list li > div {
+  display: none;
+}
+
+.icons-list li i {
+  font-size: 30px;
 }
 
 @font-face {

@@ -5,13 +5,19 @@
 .icons-list {
     list-style: none !important;
     padding: 0 !important;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    gap: 30px;
     li {
-        display: inline-block;
-        .icon-name-box {
-            background: $light;
-            padding: 20px;
-            width: 100px;
-            text-align: center;
+       text-align: center;
+       margin: 0 !important;
+       height: 65px;
+       line-height: 80px;
+        > div {
+            display: none;
+        }
+        i {
+            font-size: 30px;
         }
     }
 }
