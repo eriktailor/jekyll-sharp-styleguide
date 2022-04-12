@@ -1,0 +1,25 @@
+# Basics
+title: Jekyll Sharp StyleGuide
+tagline: A styleguide template in Jekyll.
+description: A fresh, lightweight custom built styleguide template in Jekyll.
+author: ErikTailor
+baseurl: ""
+url: ""
+
+# Excludes
+exclude:
+  - CHANGELOG.md
+  - LICENSE.txt
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .DS_Store
+  - .jekyll-cache
+
+# Livereload
+livereload: true
+
+# Sass
+sass:
+  sourcemap: never
+  style: compressed
