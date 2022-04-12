@@ -1,0 +1,15 @@
+/* BLOCKQUOTES
+=========================================================================================*/
+
+blockquote {
+    padding: $bottom-spacing (($bottom-spacing / 2) * 3);
+    background: $light;
+    border-left: 5px solid $accent;
+    margin-bottom: $bottom-spacing;
+    border-radius: $border-radius / 2;
+    display: block;
+    &.accent {
+        background-color: $accent;
+        opacity: 0.3;
+    }
+}

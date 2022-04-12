@@ -1,13 +1,13 @@
 // Colors
 $accent: #2AAC7B;
 $dark: #171010;
-$light: #EDEBEB;
+$light: #F6F5F5;
 $white: #ffffff;
 
 $accent-hover: darken($accent, 5%);
 
 // Code background
-$codebg: rgba($light, 0.5);
+$codebg: $light;
 
 // Border radius
 $border-radius: 8px;

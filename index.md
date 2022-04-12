@@ -34,6 +34,10 @@ description: A fresh, lightweight custom built styleguide template to use with J
 
 ---
 
+{% include blockquotes.html %}
+
+---
+
 {% include tags.html %}
 
 ---

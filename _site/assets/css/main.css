@@ -202,7 +202,7 @@
 }
 
 .bg-light {
-  background-color: #EDEBEB;
+  background-color: #F6F5F5;
 }
 
 .bg-white {
@@ -218,7 +218,7 @@
 }
 
 .text-light {
-  color: #EDEBEB;
+  color: #F6F5F5;
 }
 
 .text-white {
@@ -340,9 +340,9 @@ p {
 }
 
 p code {
-  background: rgba(237, 235, 235, 0.5);
+  background: #F6F5F5;
   padding: 2px 8px;
-  border-radius: 2px;
+  border-radius: 4px;
   color: #E2577A;
 }
 
@@ -622,8 +622,7 @@ input:not(:disabled):focus, input.focus, textarea:not(:disabled):focus, textarea
 
 input:disabled, input.disabled, textarea:disabled, textarea.disabled, select:disabled, select.disabled {
   cursor: not-allowed;
-  background: rgba(23, 16, 16, 0.1);
-  opacity: 0.7;
+  background: #F6F5F5;
 }
 
 ::placeholder, .select-placeholder {
@@ -719,7 +718,7 @@ img.allow-lightbox {
 /*	CODES & HIGHLIGHTS
 =========================================================================================*/
 .highlight {
-  background-color: rgba(237, 235, 235, 0.5);
+  background-color: #F6F5F5;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 8px;
@@ -1002,4 +1001,20 @@ img.allow-lightbox {
 
 .highlight .w {
   color: #bbbbbb;
+}
+
+/* BLOCKQUOTES
+=========================================================================================*/
+blockquote {
+  padding: 20px 30px;
+  background: #F6F5F5;
+  border-left: 5px solid #2AAC7B;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  display: block;
+}
+
+blockquote.accent {
+  background-color: #2AAC7B;
+  opacity: 0.3;
 }
