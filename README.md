@@ -37,4 +37,3 @@ A fresh, lightweight custom built styleguide template to use with Jekyll sites. 
 - Add custom checkboxes to input section
 - Add GitHub Pages compatible plugins
 - Add anchor link to headings
-- Add copy code block function

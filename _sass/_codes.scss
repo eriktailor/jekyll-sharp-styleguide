@@ -11,6 +11,35 @@
     overflow: auto;
 }
 
+// Copy code button
+pre {
+    position: relative;
+    button {
+        position: absolute;
+        right: -5px;
+        top: -5px;
+        border: 0;
+        background: #e7e7e7;
+        padding: 3px 6px;
+        border-radius: $border-radius / 2;
+        font-size: 13px;
+        color: #666;
+        opacity: 0;
+        cursor: pointer;
+        &:hover {
+            background: #d5dae2;
+            color: black;
+            transition: background-color 0.2s;
+        }
+    }
+    &:hover {
+        button {
+            opacity: 1;
+            transition: opacity 0.3s;
+        }
+    }
+}
+
 // Rouge github theme syntax highlight
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }

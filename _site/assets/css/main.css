@@ -790,6 +790,35 @@ img.allow-lightbox {
   overflow: auto;
 }
 
+pre {
+  position: relative;
+}
+
+pre button {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  border: 0;
+  background: #e7e7e7;
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #666;
+  opacity: 0;
+  cursor: pointer;
+}
+
+pre button:hover {
+  background: #d5dae2;
+  color: black;
+  transition: background-color 0.2s;
+}
+
+pre:hover button {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
 .highlight table td {
   padding: 5px;
 }
@@ -1179,7 +1208,7 @@ blockquote.accent {
 
 @font-face {
   font-family: 'Feather';
-  src: url("fonts/Feather.ttf?sdxovp") format("truetype"), url("fonts/Feather.woff?sdxovp") format("woff"), url("fonts/Feather.svg?sdxovp#Feather") format("svg");
+  src: url("../fonts/Feather.ttf?sdxovp") format("truetype"), url("../fonts/Feather.woff?sdxovp") format("woff"), url("../fonts/Feather.svg?sdxovp#Feather") format("svg");
   font-weight: normal;
   font-style: normal;
 }
