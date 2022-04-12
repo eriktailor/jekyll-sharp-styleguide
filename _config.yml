@@ -22,4 +22,4 @@ livereload: true
 # Sass
 sass:
   sourcemap: never
-  style: compressed
+  style: expanded

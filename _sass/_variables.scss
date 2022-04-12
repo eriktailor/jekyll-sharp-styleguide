@@ -1,0 +1,25 @@
+// Colors
+$primary: #f2c700;
+$dark: #120e03;
+$white: #ffffff;
+
+// Breakpoints
+$breakpoint-sm: 768px;
+$breakpoint-xs: 450px;
+$breakpoint-xxs: 320px;
+
+// Typography
+$base-font-size: 16px;
+
+// Headings
+$font-size:(
+    h1 : 64px,
+    h2 : 48px,
+    h3 : 36px,
+    h4 : 32px,
+    h5 : 24px,
+    h6 : 20px
+);
+
+// Spacing
+$bottom-spacing: 20px;

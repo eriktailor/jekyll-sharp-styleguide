@@ -1,12 +1,25 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
+
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <!-- Metas -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Title -->
+    <title>{{ site.title }}</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/assets/css/main.css" />
   </head>
+
   <body>
-    {{ content }}
+    <main>
+      <div class="container">
+        {{ content }}
+      </div>
+    </main>
   </body>
+
 </html>
