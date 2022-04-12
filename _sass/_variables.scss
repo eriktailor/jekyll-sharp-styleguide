@@ -6,6 +6,8 @@ $white: #ffffff;
 
 $accent-hover: darken($accent, 5%);
 
+$font-family: -apple-system, sans-serif;
+
 // Code background
 $codebg: $light;
 
@@ -26,8 +28,7 @@ $font-size:(
     h2 : 48px,
     h3 : 36px,
     h4 : 32px,
-    h5 : 24px,
-    h6 : 16px
+    h5 : 24px
 );
 
 // Spacing

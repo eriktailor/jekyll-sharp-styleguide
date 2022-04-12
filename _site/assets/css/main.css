@@ -444,6 +444,12 @@ main {
   padding: 100px 0;
 }
 
+@media (max-width: 768px) {
+  main {
+    padding: 75px 0;
+  }
+}
+
 @media (max-width: 450px) {
   main {
     padding: 50px 0;
@@ -589,6 +595,15 @@ main {
   .xs-6 {
     -moz-column-count: 6;
          column-count: 6;
+  }
+}
+
+@media (max-width: 450px) {
+  .row-columns .col {
+    height: 300px;
+  }
+  .row-columns .col:nth-child(4), .row-columns .col:nth-child(5), .row-columns .col:nth-child(6) {
+    display: none;
   }
 }
 
@@ -787,19 +802,17 @@ h5 {
 
 h6 {
   font-size: 16px;
-  letter-spacing: -0.4571428571px;
 }
 
 @media (max-width: 768px) {
   h6 {
-    font-size: 12.8px;
+    font-size: 14px;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 320px) {
   h6 {
-    font-size: 9.6px;
-    letter-spacing: -0.2909090909px;
+    font-size: 12px;
   }
 }
 
@@ -1004,6 +1017,7 @@ input, textarea, select {
   font-weight: bold;
   outline: none;
   box-sizing: border-box;
+  font-family: -apple-system, sans-serif;
   margin-bottom: 20px;
   background: #ffffff;
 }
@@ -1603,9 +1617,37 @@ blockquote.accent {
   padding: 0 !important;
   display: -ms-grid;
   display: grid;
+  gap: 20px;
   -ms-grid-columns: auto auto auto auto auto auto auto;
       grid-template-columns: auto auto auto auto auto auto auto;
-  gap: 20px;
+}
+
+@media (max-width: 620px) {
+  .icons-list {
+    -ms-grid-columns: auto auto auto auto auto auto;
+        grid-template-columns: auto auto auto auto auto auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .icons-list {
+    -ms-grid-columns: auto auto auto auto auto;
+        grid-template-columns: auto auto auto auto auto;
+  }
+}
+
+@media (max-width: 450px) {
+  .icons-list {
+    -ms-grid-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .icons-list {
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+  }
 }
 
 .icons-list li {

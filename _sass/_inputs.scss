@@ -11,6 +11,7 @@ input, textarea, select {
     font-weight: bold;
     outline: none;
     box-sizing: border-box;
+    font-family: $font-family;
     margin-bottom: $spacer;
     background: $white;
     &:not(:disabled):focus, &.focus {

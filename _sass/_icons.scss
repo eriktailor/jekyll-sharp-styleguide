@@ -6,8 +6,20 @@
     list-style: none !important;
     padding: 0 !important;
     display: grid;
+	gap: $spacer;
     grid-template-columns: auto auto auto auto auto auto auto;
-    gap: $spacer;
+	@media (max-width: 620px) {
+		grid-template-columns: auto auto auto auto auto auto;
+	}
+	@media (max-width: 550px) {
+		grid-template-columns: auto auto auto auto auto;
+	}
+	@media (max-width: $breakpoint-xs) {
+		grid-template-columns: auto auto auto auto;
+	}
+	@media (max-width: $breakpoint-xxs) {
+		grid-template-columns: auto auto auto;
+	}
     li {
        text-align: center;
        margin: 0 !important;

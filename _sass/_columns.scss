@@ -27,3 +27,15 @@
         }
     }
 }
+
+// Styleguide columns
+.row-columns {
+    @media (max-width: $breakpoint-xs) {
+        .col {
+            height: 300px;
+            &:nth-child(4), &:nth-child(5), &:nth-child(6) {
+                display: none;
+            }
+        }
+    }
+}
