@@ -305,6 +305,7 @@ table {
 }
 
 .row {
+  display: -ms-grid;
   display: grid;
   grid-auto-flow: column;
   gap: 20px;
@@ -344,6 +345,11 @@ p code {
   padding: 2px 8px;
   border-radius: 4px;
   color: #E2577A;
+}
+
+::-moz-selection {
+  background: #2AAC7B;
+  color: #ffffff;
 }
 
 ::selection {
@@ -523,8 +529,10 @@ h6 {
 /*	COLOR SWATCHES
 =========================================================================================*/
 .color-swatches {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  -ms-grid-columns: (minmax(150px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   grid-gap: 1rem;
 }
 
@@ -718,6 +726,21 @@ input:disabled, input.disabled, textarea:disabled, textarea.disabled, select:dis
   background: #F6F5F5;
 }
 
+::-webkit-input-placeholder, .select-placeholder {
+  color: rgba(23, 16, 16, 0.3);
+  font-weight: normal;
+}
+
+::-moz-placeholder, .select-placeholder {
+  color: rgba(23, 16, 16, 0.3);
+  font-weight: normal;
+}
+
+:-ms-input-placeholder, .select-placeholder {
+  color: rgba(23, 16, 16, 0.3);
+  font-weight: normal;
+}
+
 ::placeholder, .select-placeholder {
   color: rgba(23, 16, 16, 0.3);
   font-weight: normal;
@@ -728,7 +751,9 @@ input:disabled, input.disabled, textarea:disabled, textarea.disabled, select:dis
 }
 
 .select-field select {
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 .select-field svg {
@@ -790,8 +815,6 @@ input:disabled, input.disabled, textarea:disabled, textarea.disabled, select:dis
   height: 10px;
   border: solid #ffffff;
   border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
@@ -833,8 +856,11 @@ img.allow-lightbox {
   left: 0;
   top: 0;
   display: none;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      -ms-grid-row-align: center;
+      align-items: center;
   width: 100%;
   height: 100%;
   background-color: rgba(23, 16, 16, 0.85);
@@ -1244,11 +1270,7 @@ blockquote.accent {
   border: solid 2px #111111;
   background-color: #222222;
   margin-bottom: 30px;
-  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
   border-radius: 5px;
   z-index: 9999;
 }
@@ -1284,8 +1306,10 @@ blockquote.accent {
 .icons-list {
   list-style: none !important;
   padding: 0 !important;
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto;
+  -ms-grid-columns: auto auto auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto auto auto;
   gap: 20px;
 }
 

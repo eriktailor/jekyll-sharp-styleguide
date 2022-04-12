@@ -15,10 +15,13 @@ A fresh, lightweight custom built styleguide template to use with Jekyll sites. 
 - css grid and flexbox layouts
 - customized ordered & unordered lists
 - including a functional lightbox
+- autoprefix css output with vendor prefixes
 - inputs styling (basic, textarea, select)
 - code blocks with syntax highlighting
 - copy any code block with one click
 - 260+ scaleable vector icon to choose from
+- anchor links on every header with hashtag
+- compress & minify all html, css and js output
 
 ---
 

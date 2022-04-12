@@ -29,3 +29,12 @@ kramdown:
 sass:
   sourcemap: never
   style: expanded
+
+# Autoprefixer
+autoprefixer:
+  browsers:
+    - last 2 versions
+
+# Plugins
+plugins:
+  - jekyll-autoprefixer
