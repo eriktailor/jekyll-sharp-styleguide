@@ -1,0 +1,34 @@
+/*	HELPER CLASSES
+=========================================================================================*/
+
+// Margins
+@for $i from 0 through 5 {
+    .mt-#{$i} {
+        margin-top: $i * 10px !important;
+    }
+    .me-#{$i} {
+        margin-right: $i * 10px !important;
+    }
+    .mb-#{$i} {
+        margin-bottom: $i * 10px  !important;
+    }
+    .ms-#{$i} {
+        margin-left: $i * 10px  !important;
+    }
+}
+
+// Paddings
+@for $i from 0 through 5 {
+    .pt-#{$i} {
+        padding-top: $i * 10px !important;
+    }
+    .pe-#{$i} {
+        padding-right: $i * 10px !important;
+    }
+    .pb-#{$i} {
+        padding-bottom: $i * 10px  !important;
+    }
+    .ps-#{$i} {
+        padding-left: $i * 10px  !important;
+    }
+}
