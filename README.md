@@ -30,5 +30,5 @@ A fresh, lightweight custom built styleguide template to use with Jekyll sites. 
 - Add custom checkboxes to input section
 - Add GitHub Pages compatible plugins
 - Add copy code block function
-- Add feathericons copyright notice
-- Add tooltip function to icons
+- Mention feathericons in copyright notice
+- Mention SimpleTooltip in copyright notice

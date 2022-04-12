@@ -36,7 +36,7 @@ jQuery(document).ready(function ($) {
     });
 
     // Initialize tooltips on icons
-    $('h1').simpletooltip();
+    $('.icons-list i').simpletooltip();
 
 // ==================================================================================
 });
