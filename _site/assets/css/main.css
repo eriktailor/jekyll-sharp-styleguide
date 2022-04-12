@@ -1165,7 +1165,6 @@ img.allow-lightbox {
 }
 
 .lightbox .close {
-  fill: white;
   background: transparent;
   width: 40px;
   height: 40px;
@@ -1176,10 +1175,13 @@ img.allow-lightbox {
   cursor: pointer;
   transition: opacity 0.25s;
   opacity: 0.8;
+  font-size: 24px;
+  color: #ffffff;
 }
 
 .lightbox .close:hover {
   opacity: 1;
+  transition: opacity 0.2s;
 }
 
 .lightbox img {
