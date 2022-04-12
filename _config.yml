@@ -6,8 +6,8 @@ author: ErikTailor
 locale: en
 
 # Urls
-baseurl: ""
-url: ""
+baseurl: "/jekyll-sharp-styleguide"
+url: "https://eriktailor.github.io/"
 
 # Excludes
 exclude:
