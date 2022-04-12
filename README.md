@@ -65,9 +65,3 @@ JEKYLL_ENV=production bundle exec jekyll serve
 
 - [jekyll-autoprefixer](https://github.com/vwochnik/jekyll-autoprefixer) - add vendor prefixes for browser compatibility to css output
 - [jekyll-minifier](https://github.com/digitalsparky/jekyll-minifier) - plugin to compress & minify html, css, js files
-
----
-
-## Todos
-
-- document helper classes
