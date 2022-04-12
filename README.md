@@ -67,3 +67,5 @@ JEKYLL_ENV=production bundle exec jekyll serve
 ---
 
 ## Todos
+
+- document helper classes

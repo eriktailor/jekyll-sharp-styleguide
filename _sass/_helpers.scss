@@ -55,6 +55,13 @@ $color-theme:(
     }
 } 
 
+// Opacity
+@for $i from 1 through 10 {
+    .opacity-#{$i}0 {
+        opacity: $i / 10;
+    }
+}
+
 // Display
 .d-none {
     display: none !important;
