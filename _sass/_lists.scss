@@ -3,29 +3,13 @@
 
 // Unordered list
 ul {
-    &:not(.check-list) {
+    &:not(.check-list):not(.icon-list) {
         list-style: disc;
         padding-left: $bottom-spacing;
         li {
             &:not(:last-child) {
                 margin-bottom: ($bottom-spacing / 4) * 3;
             }
-        }
-    }
-}
-// Check list
-.check-list {
-    li {
-        &:not(:last-child) {
-            margin-bottom: ($bottom-spacing / 4) * 3;
-        }
-        &:before {
-            content: "";
-            display: inline-block;
-            width: 15px;
-            height: 15px;
-            background: url('https://www.svgrepo.com/show/169312/check-mark.svg');
-            margin-right: 10px;
         }
     }
 }
@@ -53,6 +37,39 @@ ol {
             border-radius: 100%;
             margin-right: 10px;
             text-indent: 0;
+        }
+    }
+}
+
+// Check list
+.check-list {
+    li {
+        &:not(:last-child) {
+            margin-bottom: ($bottom-spacing / 4) * 3;
+        }
+        &:before {
+            content: "\e92b";
+            font-family: 'Feather';
+            line-height: 1;
+            color: $accent;
+            margin-right: $bottom-spacing / 2.5;
+        }
+    }
+}
+
+// Icon list
+.icon-list {
+    li {
+        &:not(:last-child) {
+            margin-bottom: ($bottom-spacing / 4) * 3;
+        }
+        &:before {
+            content: "";
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            background: url('https://www.svgrepo.com/show/169312/check-mark.svg');
+            margin-right: 10px;
         }
     }
 }
