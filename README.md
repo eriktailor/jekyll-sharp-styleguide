@@ -22,6 +22,7 @@ A fresh, lightweight custom built styleguide template to use with Jekyll sites. 
 - 260+ scaleable vector icon to choose from
 - anchor links on every header with hashtag
 - compress & minify all html, css and js output
+- page loader animation effect included
 
 ---
 
