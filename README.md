@@ -26,3 +26,4 @@ A fresh, lightweight custom built styleguide template to use with Jekyll sites. 
 ## Todos
 
 - Add custom checkboxes to input section
+- Finish up lists component

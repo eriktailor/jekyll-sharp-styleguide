@@ -542,6 +542,26 @@ ol li:before {
   text-indent: 0;
 }
 
+/*	TAGS
+=========================================================================================*/
+.tag-cloud a {
+  background-color: #2AAC7B;
+  border-radius: 4px;
+  margin: 0 4px 6px 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 16px;
+  text-transform: lowercase;
+  color: #ffffff;
+  text-decoration: none;
+  transition: background-color 0.25s;
+}
+
+.tag-cloud a:hover {
+  background: #25986c;
+  transition: background-color 0.3s;
+}
+
 /* BUTTONS
 =========================================================================================*/
 button {

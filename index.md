@@ -32,5 +32,9 @@ description: A fresh, lightweight custom built styleguide template to use with J
 
 {% include inputs.html %}
 
+---
+
+{% include tags.html %}
+
 <br><br>
 <br><br>
