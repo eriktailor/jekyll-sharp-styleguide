@@ -33,6 +33,14 @@
     }
 }
 
+// Color theme
+$color-theme:(
+    accent  : $accent,
+    dark    : $dark,
+    light   : $light,
+    white   : $white
+);
+
 // Backgrounds
 @each $background, $color in $color-theme {
     .bg-#{$background}{ 

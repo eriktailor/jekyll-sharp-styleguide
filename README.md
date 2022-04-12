@@ -14,4 +14,6 @@ The responsive typography is 90% ready, can go on with other elements.
   - margins
   - paddings
   - backgrounds
+  - text colors
 - responsive typography
+- customized ordered & unordered lists
