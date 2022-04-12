@@ -474,20 +474,20 @@ h5 {
 }
 
 h6 {
-  font-size: 20px;
-  letter-spacing: -0.5714285714px;
+  font-size: 16px;
+  letter-spacing: -0.4571428571px;
 }
 
 @media (max-width: 768px) {
   h6 {
-    font-size: 16px;
+    font-size: 12.8px;
   }
 }
 
 @media (max-width: 450px) {
   h6 {
-    font-size: 12px;
-    letter-spacing: -0.3636363636px;
+    font-size: 9.6px;
+    letter-spacing: -0.2909090909px;
   }
 }
 
