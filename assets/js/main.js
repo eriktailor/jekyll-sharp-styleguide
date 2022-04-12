@@ -36,8 +36,24 @@ jQuery(document).ready(function ($) {
     });
 
     // Initialize tooltips on icons
-    $('.icons-list i').simpletooltip({
-        color: 'white',
+    $(function (){
+        $('.icons-list i').simpletooltip({
+            color: 'white',
+        });
+    });
+
+    // Make anchor headings hash in url
+    $(function () {
+        $("h2, h3, h4").each(function () {
+            var str = $(this).text().toLowerCase().replace(/\s+/g, "-");
+            //str.toString().replace(/\s+/g, "-");
+            $(this).attr("id", str);
+            $(this).prepend('<a class="anchor"><i class="feather-link"></i></a>');
+        });
+        $(".anchor").click(function (e) {
+            window.location.hash = $(this).parent().attr("id");
+            e.preventDefault();
+        });
     });
 
 // ==================================================================================

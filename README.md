@@ -52,4 +52,3 @@ bundle exec jekyll servee
 ## Todos
 
 - Add GitHub Pages compatible plugins
-- Add anchor link to headings
