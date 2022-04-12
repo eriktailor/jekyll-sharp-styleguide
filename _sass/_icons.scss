@@ -7,17 +7,26 @@
     padding: 0 !important;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
-    gap: 30px;
+    gap: $bottom-spacing;
     li {
        text-align: center;
        margin: 0 !important;
-       height: 65px;
-       line-height: 80px;
+       height: 75px;
+       line-height: 90px;
+       border-radius: $border-radius;
+       background-color: $light;
         > div {
             display: none;
         }
         i {
-            font-size: 30px;
+            font-size: 26px;
+        }
+        &:hover {
+            cursor: pointer;
+            i {
+                color: $accent;
+                transition: color 0.2s;
+            }
         }
     }
 }

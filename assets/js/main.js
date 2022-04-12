@@ -35,5 +35,8 @@ jQuery(document).ready(function ($) {
         select_placeholder();
     });
 
+    // Initialize tooltips on icons
+    $('h1').simpletooltip();
+
 // ==================================================================================
 });

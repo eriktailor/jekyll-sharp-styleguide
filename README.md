@@ -20,7 +20,8 @@ A fresh, lightweight custom built styleguide template to use with Jekyll sites. 
 - customized ordered & unordered lists
 - including a functional lightbox
 - inputs styling (basic, textarea, select)
-- code blocks with syntax highlighting
+- code blocks with syntax highlightinbg
+- 260+ scaleable vector icon to choose from
 
 ---
 
@@ -30,3 +31,4 @@ A fresh, lightweight custom built styleguide template to use with Jekyll sites. 
 - Add GitHub Pages compatible plugins
 - Add copy code block function
 - Add feathericons copyright notice
+- Add tooltip function to icons
