@@ -26,8 +26,6 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1;
 }
 
-
-
 @each $heading, $size in $font-size {
     #{$heading}{ 
         font-size: $size;
@@ -41,3 +39,8 @@ h1, h2, h3, h4, h5, h6 {
         }
     }
 } 
+
+// Divider
+hr {
+    margin: 50px 0;
+}

@@ -32,3 +32,17 @@
         padding-left: $i * 10px  !important;
     }
 }
+
+// Backgrounds
+@each $background, $color in $color-theme {
+    .bg-#{$background}{ 
+        background-color: $color;
+    }
+} 
+
+// Colors
+@each $text, $color in $color-theme {
+    .text-#{$text}{ 
+        color: $color;
+    }
+} 

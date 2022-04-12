@@ -1,0 +1,19 @@
+/*	COLOR SWATCHES
+=========================================================================================*/
+
+// Swatches grid
+.color-swatches {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 1rem;
+    .color-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: $border-radius;
+        height: 150px;
+        p {
+            margin-bottom: 0;
+        }
+    }
+}

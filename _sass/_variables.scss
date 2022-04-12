@@ -3,6 +3,19 @@ $primary: #f2c700;
 $dark: #120e03;
 $white: #ffffff;
 
+// Colors
+$color-theme:(
+    accent  : #2AAC7B,
+    dark    : #171010,
+    light   : #f6f2e1,
+    white   : #ffffff
+);
+
+// ???????????????????????????????? milegyen a colorokkal?
+
+// Border radius
+$border-radius: 8px;
+
 // Breakpoints
 $breakpoint-sm: 768px;
 $breakpoint-xs: 450px;

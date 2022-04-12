@@ -192,6 +192,38 @@
   padding-left: 50px !important;
 }
 
+.bg-accent {
+  background-color: #2AAC7B;
+}
+
+.bg-dark {
+  background-color: #171010;
+}
+
+.bg-light {
+  background-color: #f6f2e1;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.text-accent {
+  color: #2AAC7B;
+}
+
+.text-dark {
+  color: #171010;
+}
+
+.text-light {
+  color: #f6f2e1;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
 /*	CSS RESET
 =========================================================================================*/
 html, body, div, span, applet, object, iframe,
@@ -387,4 +419,28 @@ h6 {
     font-size: 12px;
     letter-spacing: -0.3636363636px;
   }
+}
+
+hr {
+  margin: 50px 0;
+}
+
+/*	COLOR SWATCHES
+=========================================================================================*/
+.color-swatches {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 1rem;
+}
+
+.color-swatches .color-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  height: 150px;
+}
+
+.color-swatches .color-item p {
+  margin-bottom: 0;
 }

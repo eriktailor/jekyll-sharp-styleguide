@@ -10,5 +10,8 @@ The responsive typography is 90% ready, can go on with other elements.
 
 ## Features
 
-- spacing helper classes
+- helper classes for
+  - margins
+  - paddings
+  - backgrounds
 - responsive typography
