@@ -7,6 +7,7 @@
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     grid-gap: 1rem;
     .color-item {
+        margin-bottom: $bottom-spacing;
         figure {
             height: 150px;
             border-radius: $border-radius;

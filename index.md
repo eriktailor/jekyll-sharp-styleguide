@@ -44,7 +44,9 @@ description: A fresh, lightweight custom built styleguide template to use with J
 
 {% include codes.html %}
 
-<i class="feather-check"></i>
+---
+
+{% include icons.html %}
 
 <br><br>
 <br><br>

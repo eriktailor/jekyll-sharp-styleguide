@@ -499,6 +499,10 @@ h6 {
   grid-gap: 1rem;
 }
 
+.color-swatches .color-item {
+  margin-bottom: 20px;
+}
+
 .color-swatches .color-item figure {
   height: 150px;
   border-radius: 8px;
@@ -512,6 +516,10 @@ h6 {
 
 /*	LISTINGS
 =========================================================================================*/
+ul {
+  margin-bottom: 20px;
+}
+
 ul:not(.check-list):not(.icon-list) {
   list-style: disc;
   padding-left: 20px;
@@ -525,6 +533,7 @@ ol {
   list-style: none;
   counter-reset: my-counter;
   padding-left: 25px;
+  margin-bottom: 20px;
 }
 
 ol li {
@@ -1072,6 +1081,24 @@ blockquote {
 blockquote.accent {
   background-color: #2AAC7B;
   opacity: 0.3;
+}
+
+/*	ICONS
+=========================================================================================*/
+.icons-list {
+  list-style: none !important;
+  padding: 0 !important;
+}
+
+.icons-list li {
+  display: inline-block;
+}
+
+.icons-list li .icon-name-box {
+  background: #F6F5F5;
+  padding: 20px;
+  width: 100px;
+  text-align: center;
 }
 
 @font-face {
