@@ -4,9 +4,9 @@ A fresh, lightweight custom built styleguide template to use with Jekyll sites. 
 
 ---
 
-## Catch up
+## What's this
 
-The responsive typography is 90% ready, can go on with other elements.
+- A basic knowledge of HTML, CSS and Jekyll is required, however the usuage is documented in a short, clear format.
 
 ## Features
 

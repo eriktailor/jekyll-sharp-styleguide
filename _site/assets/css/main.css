@@ -487,12 +487,11 @@ h6 {
   grid-gap: 1rem;
 }
 
-.color-swatches .color-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 8px;
+.color-swatches .color-item figure {
   height: 150px;
+  border-radius: 8px;
+  line-height: 150px;
+  text-align: center;
 }
 
 .color-swatches .color-item p {
