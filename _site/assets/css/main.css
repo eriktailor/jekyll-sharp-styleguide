@@ -296,6 +296,26 @@ table {
   border-spacing: 0;
 }
 
+/*	HEADER
+=========================================================================================*/
+header {
+  background-color: #171010;
+  background-image: url("../img/header_bg.webp");
+  background-size: cover;
+  background-position: center;
+  -webkit-filter: saturate(0);
+          filter: saturate(0);
+  min-height: 400px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+header h1 {
+  color: #ffffff;
+}
+
 /*	THE CONTENT
 =========================================================================================*/
 .container {
