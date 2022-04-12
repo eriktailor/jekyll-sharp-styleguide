@@ -2,10 +2,10 @@
 =========================================================================================*/
 
 blockquote {
-    padding: $bottom-spacing (($bottom-spacing / 2) * 3);
+    padding: $spacer (($spacer / 2) * 3);
     background: $light;
     border-left: 5px solid $accent;
-    margin-bottom: $bottom-spacing;
+    margin-bottom: $spacer;
     border-radius: $border-radius / 2;
     display: block;
     &.accent {

@@ -1,21 +1,24 @@
 /*	COLOR SWATCHES
 =========================================================================================*/
 
-// Swatches grid
-.color-swatches {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    grid-gap: $bottom-spacing;
-    .color-item {
-        margin-bottom: $bottom-spacing;
-        figure {
-            height: 150px;
-            border-radius: $border-radius;
-            line-height: 150px;
-            text-align: center;
+// Swatch
+.color-item {
+    margin-bottom: $spacer;
+    figure {
+        height: 150px;
+        border-radius: $border-radius;
+        line-height: 150px;
+        text-align: center;
+        @media (max-width: $breakpoint-sm) {
+            height: 200px;
+            line-height: 200px;
         }
-        p {
-            margin-bottom: 0;
+        @media (max-width: $breakpoint-xs) {
+            height: 100px;
+            line-height: 100px;
         }
+    }
+    p {
+        margin-bottom: 0;
     }
 }

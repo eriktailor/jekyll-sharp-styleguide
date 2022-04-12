@@ -3,13 +3,13 @@
 
 // Unordered list
 ul {
-    margin-bottom: $bottom-spacing;
+    margin-bottom: $spacer;
     &:not(.check-list):not(.icon-list) {
         list-style: disc;
-        padding-left: $bottom-spacing;
+        padding-left: $spacer;
         li {
             &:not(:last-child) {
-                margin-bottom: ($bottom-spacing / 4) * 3;
+                margin-bottom: ($spacer / 4) * 3;
             }
         }
     }
@@ -20,11 +20,11 @@ ol {
     list-style: none;
     counter-reset: my-counter;
     padding-left: 25px;
-    margin-bottom: $bottom-spacing;
+    margin-bottom: $spacer;
     li {
         counter-increment: my-counter;
         &:not(:last-child) {
-            margin-bottom: ($bottom-spacing / 4) * 3;
+            margin-bottom: ($spacer / 4) * 3;
         }
         text-indent: -30px;
         &:before {
@@ -48,7 +48,7 @@ ol {
     li {
         text-indent: -32px;
         &:not(:last-child) {
-            margin-bottom: ($bottom-spacing / 4) * 3;
+            margin-bottom: ($spacer / 4) * 3;
         }
         &:before {
             content: "\e92b";
@@ -60,7 +60,7 @@ ol {
             border-radius: 50%;
             background: $accent;
             color: $white;
-            margin-right: $bottom-spacing / 2.5;
+            margin-right: $spacer / 2.5;
         }
     }
 }
@@ -73,7 +73,7 @@ ol {
     li {
         counter-increment: my-counter;
         &:not(:last-child) {
-            margin-bottom: ($bottom-spacing / 4) * 3;
+            margin-bottom: ($spacer / 4) * 3;
         }
         text-indent: -35px;
         &:before {

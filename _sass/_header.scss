@@ -15,12 +15,18 @@ header {
     h1 {
         color: $white;
     }
+    @media (max-width: $breakpoint-sm) {
+        min-height: 450px;
+    }
+    @media (max-width: $breakpoint-xs) {
+        min-height: 350px;
+    }
 }
 
 // Branding logo
 .site-logo {
     position: absolute;
-    top: $bottom-spacing;
+    top: $spacer;
     img {
         width: 80px;
         height: auto;

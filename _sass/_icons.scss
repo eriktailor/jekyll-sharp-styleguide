@@ -7,7 +7,7 @@
     padding: 0 !important;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
-    gap: $bottom-spacing;
+    gap: $spacer;
     li {
        text-align: center;
        margin: 0 !important;

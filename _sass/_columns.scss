@@ -1,0 +1,29 @@
+/*	COLUMNS LAYOUT
+=========================================================================================*/
+
+// Generate MD columns
+@for $i from 1 through 6 {
+    @media (min-width: $breakpoint-sm) {
+        .md-#{$i} {
+            column-count: $i;
+        }
+    }
+}
+
+// Generate SM columns
+@for $i from 1 through 6 {
+    @media (max-width: $breakpoint-sm) {
+        .sm-#{$i} {
+            column-count: $i;
+        }
+    }
+}
+
+// Generate XS columns
+@for $i from 1 through 6 {
+    @media (max-width: $breakpoint-xs) {
+        .xs-#{$i} {
+            column-count: $i;
+        }
+    }
+}

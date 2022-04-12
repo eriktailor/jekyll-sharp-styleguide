@@ -12,12 +12,12 @@ button {
     background: $accent;
     color: $white;
     font-weight: bold;
-    padding: (($bottom-spacing / 4) * 3)  (($bottom-spacing / 4) * 5);
+    padding: (($spacer / 4) * 3)  (($spacer / 4) * 5);
     border: 0;
     box-shadow: none;
     font-size: $base-font-size * 1.1;
     border-radius: $border-radius / 2;
-    margin-bottom: $bottom-spacing;
+    margin-bottom: $spacer;
     cursor: pointer;
     &:not(.disabled):hover, &.hover {
         background: $accent-hover;
