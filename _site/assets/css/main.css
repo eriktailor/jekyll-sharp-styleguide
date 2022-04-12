@@ -512,11 +512,20 @@ h6 {
 
 /*	LISTINGS
 =========================================================================================*/
-ul li:not(:last-child) {
+ul:not(.check-list) {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+ul:not(.check-list) li:not(:last-child) {
   margin-bottom: 15px;
 }
 
-ul li:before {
+.check-list li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.check-list li:before {
   content: "";
   display: inline-block;
   width: 15px;

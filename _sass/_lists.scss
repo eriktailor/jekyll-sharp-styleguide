@@ -3,6 +3,18 @@
 
 // Unordered list
 ul {
+    &:not(.check-list) {
+        list-style: disc;
+        padding-left: $bottom-spacing;
+        li {
+            &:not(:last-child) {
+                margin-bottom: ($bottom-spacing / 4) * 3;
+            }
+        }
+    }
+}
+// Check list
+.check-list {
     li {
         &:not(:last-child) {
             margin-bottom: ($bottom-spacing / 4) * 3;

@@ -30,3 +30,4 @@ A fresh, lightweight custom built styleguide template to use with Jekyll sites. 
 - Finish up lists component
 - Add GitHub Pages compatible plugins
 - Add copy code block function
+- Add icons component
