@@ -18,6 +18,12 @@ p {
     @media (max-width: $breakpoint-xs) {
         font-size: $base-font-size;
     }
+    code {
+        background: $codebg;
+        padding: 2px 8px;
+        border-radius: 2px;
+        color: #E2577A;
+    }
 }
 
 // Small

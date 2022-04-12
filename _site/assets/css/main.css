@@ -339,6 +339,13 @@ p {
   }
 }
 
+p code {
+  background: rgba(237, 235, 235, 0.5);
+  padding: 2px 8px;
+  border-radius: 2px;
+  color: #E2577A;
+}
+
 small {
   font-size: 16px;
 }
@@ -712,7 +719,7 @@ img.allow-lightbox {
 /*	CODES & HIGHLIGHTS
 =========================================================================================*/
 .highlight {
-  background-color: rgba(237, 235, 235, 0.55);
+  background-color: rgba(237, 235, 235, 0.5);
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 8px;
