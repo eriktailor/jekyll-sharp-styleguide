@@ -377,6 +377,6 @@ When you feel ready, and satisfied with the result, you may want to deploy the p
 
 ## Changelog
 
-#### v1.0.0
+#### v0.1.0
 
 - Initial release
