@@ -2,16 +2,15 @@
 
 A fresh, lightweight custom built styleguide template to use with Jekyll sites. Just download or clone from the github repo and start building your site upon it.
 
-## [Check out the live demo here](https://eriktailor.github.io/jekyll-sharp-styleguide/)
+### [Check out the live demo](https://eriktailor.github.io/jekyll-sharp-styleguide/)
 
 ---
-
 
 ## Table of contents
 
 1. [Requirements](#requirements)
 2. [Features](#features)
-3. [Quickstart](#quickstart)
+3. [Installion](#installion)
 4. [Project structure](#project-structure)
 5. [Configuration](#configuration)
 6. [Customize favicon](#customize-favicon)
@@ -55,19 +54,27 @@ A fresh, lightweight custom built styleguide template to use with Jekyll sites. 
 
 ---
 
-## Quickstart
+## Installion
 
-Clone this repo to your local machine:
+Add this line to your Jekyll site's `Gemfile`:
 
-```shell
-git clone https://github.com/eriktailor/jekyll-sharp-styleguide.git
+```ruby
+gem "jekyll-sharp-styleguide"
 ```
 
-Open in your favourite code editor and run this command to install gems:
+And add this line to your Jekyll site's `_config.yml`:
 
-```shell
-bundle
+```yaml
+theme: jekyll-sharp-styleguide
 ```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install jekyll-sharp-styleguide
 
 The project is all set up, you just need to serve it:
 
