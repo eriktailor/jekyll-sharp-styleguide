@@ -68,6 +68,12 @@ And add this line to your Jekyll site's `_config.yml`:
 theme: jekyll-sharp-styleguide
 ```
 
+Add to your Gemfile:
+
+```
+gem "execjs", "2.7.0"
+```
+
 And then execute:
 
     $ bundle
