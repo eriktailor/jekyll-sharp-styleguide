@@ -1,0 +1,13 @@
+/*	FONTS
+=========================================================================================*/
+
+// Import Google Font
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+// Base
+body {
+    font-family: $font-family;
+    font-weight: 400;
+    line-height: 1.6;
+    color: rgba($dark,0.75);
+}

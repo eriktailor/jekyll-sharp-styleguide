@@ -383,6 +383,10 @@ When you feel ready, and satisfied with the result, you may want to deploy the p
 
 ## Changelog
 
-#### v0.1.0
+#### v1.0.0
 
 - Initial release
+
+#### v1.0.1
+
+- Google font Inter added
