@@ -18,7 +18,6 @@ img {
     position: fixed;
     left: 0;
     top: 0;
-    display: none;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -28,23 +27,32 @@ img {
     > div {
         padding: 5%;
     }
-    .close {
+    .lb-close, .lb-next, .lb-prev {
+        position: absolute;
         background: transparent;
         width: 40px;
         height: 40px;
-        position: absolute;
-        right: 15px;
-        top: 15px;
         z-index: 1002;
         cursor: pointer;
-        transition: opacity 0.25s;
-        opacity: 0.8;
-        font-size: 24px;
-        color: $white;
+        font-size: 28px;
+        color: rgba($white, 0.8);
         &:hover {
-            opacity: 1;
-            transition: opacity 0.2s;
+            color: $white;
+            transition: color 0.2s;
         }
+    }
+    .lb-close {
+        right: 15px;
+        top: 15px;
+        font-size: 24px;
+    }
+    .lb-next {
+        right: 15px;
+        display: none;
+    }
+    .lb-prev {
+        left: 15px;
+        display: none;
     }
     img {
         max-height: 90vh;

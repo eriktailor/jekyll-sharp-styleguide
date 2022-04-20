@@ -45,6 +45,7 @@ A fresh, lightweight custom built styleguide template to use with Jekyll sites. 
 - customized ordered & unordered lists
 - includes a functional lightbox
 - responsive typography and fonts
+- image gallery lightbox with infinite loop
 - form inputs styling (text, textarea, select, checkbox)
 - code blocks with syntax highlighting
 - copy a code block with one click function
@@ -390,3 +391,4 @@ When you feel ready, and satisfied with the result, you may want to deploy the p
 #### v1.0.1
 
 - Google font Inter added
+- Image gallery lightbox added

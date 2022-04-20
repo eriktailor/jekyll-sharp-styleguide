@@ -1,19 +1,45 @@
 jQuery(document).ready(function ($) {
 // ==================================================================================
 
-    // Creates an image lightbox
-    $(function () {
-        var lightbox = $("#lightbox");
-        lightbox.hide();
-        $(".allow-lightbox").click(function () {
-            var src = $(this).attr("src");
+    // Image lightbox gallery
+    $(function(){
+        $('.lightbox').hide();
+        var lightbox = function(){
+            var src = $('.lb-active').attr('src');
+            $('.lightbox img').attr('src', src);
+        }
+        $('.allow-lightbox').click(function(){
             $("body").addClass("lightbox-opened");
-            lightbox.fadeIn().css("display", "flex");
-            lightbox.find("img").attr("src", src);
+            $('.lightbox').fadeIn().css('display','flex');
+            $(this).addClass('lb-active');
+            if( $(this).parent().hasClass('gallery') ) {
+                $('.lb-prev, .lb-next').show();
+            }
+            lightbox();
         });
-        $("#lightbox .close").click(function () {
-            lightbox.fadeOut();
+        $('.lb-close').click(function(){
+            $('img').removeClass('lb-active');
             $("body").removeClass("lightbox-opened");
+            $('.lightbox').fadeOut();
+            $('.lb-prev, .lb-next').hide();
+        });
+        $('.lb-next').click(function(){
+            if( $('.lb-active').parent('.gallery').children('img:last').hasClass('lb-active') ) {
+                $('.lb-active').removeClass().parent('.gallery').children('img:first').addClass('lb-active');
+                lightbox();
+            } else {
+                $('.lb-active').removeClass().next('img').addClass('lb-active');
+                lightbox();
+            }
+        });
+        $('.lb-prev').click(function(){
+            if( $('.lb-active').parent('.gallery').children('img:first').hasClass('lb-active') ) {
+                $('.lb-active').removeClass().parent('.gallery').children('img:last').addClass('lb-active');
+                lightbox();
+            } else {
+                $('.lb-active').removeClass().prev('img').addClass('lb-active');
+                lightbox();
+            }
         });
     });
 

@@ -1171,7 +1171,6 @@ img.allow-lightbox {
   position: fixed;
   left: 0;
   top: 0;
-  display: none;
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
@@ -1187,24 +1186,36 @@ img.allow-lightbox {
   padding: 5%;
 }
 
-.lightbox .close {
+.lightbox .lb-close, .lightbox .lb-next, .lightbox .lb-prev {
+  position: absolute;
   background: transparent;
   width: 40px;
   height: 40px;
-  position: absolute;
-  right: 15px;
-  top: 15px;
   z-index: 1002;
   cursor: pointer;
-  transition: opacity 0.25s;
-  opacity: 0.8;
-  font-size: 24px;
-  color: #ffffff;
+  font-size: 28px;
+  color: rgba(255, 255, 255, 0.8);
 }
 
-.lightbox .close:hover {
-  opacity: 1;
-  transition: opacity 0.2s;
+.lightbox .lb-close:hover, .lightbox .lb-next:hover, .lightbox .lb-prev:hover {
+  color: #ffffff;
+  transition: color 0.2s;
+}
+
+.lightbox .lb-close {
+  right: 15px;
+  top: 15px;
+  font-size: 24px;
+}
+
+.lightbox .lb-next {
+  right: 15px;
+  display: none;
+}
+
+.lightbox .lb-prev {
+  left: 15px;
+  display: none;
 }
 
 .lightbox img {
@@ -1226,6 +1237,22 @@ img.allow-lightbox {
 .no-lightbox {
   cursor: default;
   pointer-events: none;
+}
+
+/*	IMAGE GALLERY
+=========================================================================================*/
+.gallery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.gallery img {
+  height: 150px;
+  margin-bottom: 0;
 }
 
 /*	CODES & HIGHLIGHTS

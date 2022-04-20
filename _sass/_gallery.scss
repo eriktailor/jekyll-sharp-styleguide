@@ -1,0 +1,14 @@
+/*	IMAGE GALLERY
+=========================================================================================*/
+
+// Gallery grid
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    margin-bottom: $spacer;
+    img {
+        height: 150px;
+        margin-bottom: 0;
+    }
+}
