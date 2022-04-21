@@ -45,6 +45,7 @@ A fresh, lightweight custom built styleguide template to use with Jekyll sites. 
 - customized ordered & unordered lists
 - includes a functional lightbox
 - social media icon links in footer
+- included Google Analytics tracking option
 - text or image based logo in navbar
 - responsive typography and fonts
 - image gallery lightbox with infinite loop

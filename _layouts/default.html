@@ -9,7 +9,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!-- Title -->
-    <title>{{ site.title }}</title>
+    {% if page.url == "/index.html" %}
+      <title>{{ site.title }}</title>
+    {% else %}
+      <title>{{ page.title }} | {{ site.title }}</title>
+    {% endif %}
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/main.css" />
