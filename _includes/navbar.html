@@ -1,0 +1,12 @@
+<nav class="navbar">
+    <div class="container">
+        {% include logo.html %}
+        {% if site.data.navigation %}
+            <ul>
+                {% for item in site.data.navigation %}
+                    <li><a href="{{ item.link }}">{{ item.text }}</a></li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+</nav>
