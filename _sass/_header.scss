@@ -8,30 +8,10 @@ header {
     background-size: cover;
     background-position: center;
     min-height: 550px;
-    padding-top: 50px;
-    display: flex;
-    align-items: center;
     h1, h2, h3 {
         color: $white;
     }
     @media (max-width: $breakpoint-sm) {
         min-height: 450px;
-    }
-}
-
-// Branding logo
-.site-logo {
-    position: absolute;
-    top: $spacer;
-    img {
-        width: 80px;
-        height: auto;
-        opacity: 0.9;
-    }
-    &:hover {
-        img {
-            opacity: 1;
-            transition: opacity 0.3s;
-        }
     }
 }

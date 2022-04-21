@@ -407,6 +407,57 @@ body {
   color: rgba(23, 16, 16, 0.75);
 }
 
+/*	NAVBAR
+=========================================================================================*/
+.navbar {
+  padding: 15px 0;
+  margin-bottom: 50px;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-bottom: 0 !important;
+  padding-left: 10px;
+}
+
+.navbar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.navbar ul li a:hover {
+  opacity: 1;
+  transition: opacity 0.25s;
+}
+
+.navbar .container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.site-logo img {
+  width: 82px;
+  height: auto;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.site-logo:hover img {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
 /*	HEADER
 =========================================================================================*/
 header {
@@ -415,11 +466,6 @@ header {
   background-size: cover;
   background-position: center;
   min-height: 550px;
-  padding-top: 50px;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
 }
 
 header h1, header h2, header h3 {
@@ -430,22 +476,6 @@ header h1, header h2, header h3 {
   header {
     min-height: 450px;
   }
-}
-
-.site-logo {
-  position: absolute;
-  top: 20px;
-}
-
-.site-logo img {
-  width: 80px;
-  height: auto;
-  opacity: 0.9;
-}
-
-.site-logo:hover img {
-  opacity: 1;
-  transition: opacity 0.3s;
 }
 
 /*	THE CONTENT
