@@ -3,5 +3,14 @@
         <p class="mb-0">
             <small>2022 © ErikTailor | Made with ❤️ using Jekyll</small>
         </p>
+        {% if site.data.socials %}
+            <div class="socials">
+                {% for social in site.data.socials %}
+                    <a href="{{ social.link }}">
+                        <i class="feather-{{ social.type }}"></i>
+                    </a>
+                {% endfor %}
+            </div>
+        {% endif %}
     </div>
 </footer>

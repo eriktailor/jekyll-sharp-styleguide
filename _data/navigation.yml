@@ -1,8 +1,11 @@
 - text: Home
   link: /
+
 - text: Docs
   link: /docs.html
+
 - text: Inputs
   link: /#inputs
+
 - text: Icons
   link: /#icons

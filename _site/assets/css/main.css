@@ -2835,3 +2835,29 @@ footer {
   padding: 20px 0;
   background-color: #F6F5F5;
 }
+
+footer .container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.socials a {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  color: rgba(23, 16, 16, 0.4);
+  padding-left: 5px;
+}
+
+.socials a:hover {
+  color: #171010;
+  transition: color 0.25s;
+}

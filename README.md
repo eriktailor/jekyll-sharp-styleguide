@@ -44,6 +44,8 @@ A fresh, lightweight custom built styleguide template to use with Jekyll sites. 
 - custom 6 columns responsoive grid system
 - customized ordered & unordered lists
 - includes a functional lightbox
+- social media icon links in footer
+- text or image based logo in navbar
 - responsive typography and fonts
 - image gallery lightbox with infinite loop
 - form inputs styling (text, textarea, select, checkbox)

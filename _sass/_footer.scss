@@ -1,7 +1,32 @@
 /*	FOOTER
 =========================================================================================*/
 
+// Footer wrap
 footer {
     padding: $spacer 0;
     background-color: $light;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+// Social icons
+.socials {
+    a {
+        width: 25px;
+        height: 25px;
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+        line-height: 30px;
+        font-size: 20px;
+        color: rgba($dark, 0.4);
+        padding-left: 5px;
+        &:hover {
+            color: $dark;
+            transition: color 0.25s;
+        }
+    }
 }
