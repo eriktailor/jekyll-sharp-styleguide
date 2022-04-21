@@ -411,7 +411,6 @@ body {
 =========================================================================================*/
 .navbar {
   padding: 15px 0;
-  margin-bottom: 60px;
 }
 
 .navbar ul {
@@ -435,6 +434,12 @@ body {
 .navbar ul li a:hover {
   opacity: 1;
   transition: opacity 0.25s;
+}
+
+@media (max-width: 450px) {
+  .navbar ul {
+    display: none;
+  }
 }
 
 .navbar .container {
@@ -473,17 +478,20 @@ header {
   background-image: url("../img/header_bg.webp");
   background-size: cover;
   background-position: center;
-  min-height: 550px;
+}
+
+header > .container {
+  padding: 70px 20px;
+}
+
+@media (max-width: 768px) {
+  header > .container {
+    padding: 35px 20px;
+  }
 }
 
 header h1, header h2, header h3 {
   color: #ffffff;
-}
-
-@media (max-width: 768px) {
-  header {
-    min-height: 450px;
-  }
 }
 
 /*	THE CONTENT

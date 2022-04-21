@@ -4,7 +4,6 @@
 // Navigation bar
 .navbar {
     padding: 15px 0;
-    margin-bottom: 60px;
     ul {
         list-style: none;
         padding: 0;
@@ -22,6 +21,9 @@
                     transition: opacity 0.25s;
                 }
             }
+        }
+        @media (max-width: $breakpoint-xs) {
+            display: none;
         }
     }
     .container {

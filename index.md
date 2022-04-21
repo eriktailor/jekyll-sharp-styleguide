@@ -1,7 +1,10 @@
 ---
 layout: default
-title: "Jekyll Sharp StyleGuide"
-description: A fresh, lightweight custom built styleguide template to use with Jekyll sites. Just download or clone from the github repo and start building your site upon it.
+title: Jekyll Smart StyleGuide
+description: Jekyll Smart Styleguide is a complete, customizable onepage Jekyll theme, including a wide range of styleguide components. It is perfect starting point of developing any kind of static websites.
+button:
+  link: https://themeforest.net/user/eriktailor
+  text: Get started now
 ---
 
 {% include colors.html %}
